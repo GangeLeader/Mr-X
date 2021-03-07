@@ -10,7 +10,7 @@ except ImportError:
 os.system("clear")
 """
 try:
-    my = requests.get("https://muhammadhamza365.byethost7.com")
+    my = requests.get("https://Arbabmemon.byethost31.com")
 except requests.exceptions.ConnectionError:
     print("")
     print("\t    \033[1;31mTurn on mobile data OR wifi then use MAFIA-KILLER TOOL\033[0;97m")
