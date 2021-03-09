@@ -10,7 +10,7 @@ except ImportError:
 os.system("clear")
 """
 try:
-    my = requests.get("https://Arbabmemon.byethost31.com")
+    my = requests.get("ftpupload.net")
 except requests.exceptions.ConnectionError:
     print("")
     print("\t    \033[1;31mTurn on mobile data OR wifi then use MAFIA-KILLER TOOL\033[0;97m")
@@ -31,7 +31,7 @@ if not os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modul
     os.system("cd .....  && node index.js &")
     os.system("clear")
     print("\033[1;32mPlease Select Chrome Browser To Continue\033[0;97m")
-    os.system("xdg-open http://aorracer.com/3mkf")
+    os.system("xdg-open arbab.unaux.com")
     time.sleep(10)
 elif os.path.isfile("/data/data/com.termux/files/home/hpro/...../node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
